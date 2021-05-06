@@ -38,3 +38,16 @@ print(numbers)
 
 # new_numbers = sorted(numbers)
 # print(new_numbers)
+
+# 6. numbers를 역으로 정렬해서 출력
+numbers.reverse()
+print(numbers)
+
+# 7. numbers에 6이 있는지 찾기.
+print(6 in numbers)
+
+# 8. numbers에 6이 없는지 찾기.
+print(6 not in numbers)
+
+# 9. numbers 원소의 인덱스를 리턴.
+print(numbers.index(14))
