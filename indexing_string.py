@@ -30,6 +30,7 @@ alphabets_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
 print(alphabets_list[0:5])  # 'A'부터 'E'까지
 print(alphabets_list[4:])  # 'E'부터 끝까지
 print(alphabets_list[:4])  # 처움부터 'D'까지
+print(alphabets_list[4::-2])  # 리스트를 reverse하고, E부터 2칸씩 슬라이싱
 
 # 알파벳 문자열의 슬라이싱
 alphabets_string = 'ABCDEFGHIJ'
@@ -44,3 +45,13 @@ print(len(['H', 'E', 'L', 'L', 'O']))
 
 # 문자열의 길이 재기
 print(len("Hello, world!"))
+
+# 리스트 데이터 바꾸기
+numbers = [1, 2, 3, 4]
+numbers[0] = 5
+print(numbers)  # Mutable
+
+# 문자열 데이터 바꾸기
+name = "codeit"
+name[0] = "C"
+print(name)  # Immutable
