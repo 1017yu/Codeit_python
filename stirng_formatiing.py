@@ -3,7 +3,7 @@ year = 2021
 month = 5
 day = 4
 
-# print("오늘은 " + str(year) + "년 " + str(month) + "월 "+ str(day) + "일입니다!")
+print("오늘은 " + str(year) + "년 " + str(month) + "월 " + str(day) + "일입니다.")
 
 print("오늘은 {}년 {}월 {}일입니다.".format(year, month, day))  # .format()
 
@@ -17,6 +17,20 @@ print("저는 {1}, {0}, {2}를 좋아합니다!".format("박지성", "손흥민"
 num_1 = 1
 num_2 = 3
 
+print("{0} 나누기 {1}은 {2}입니다.".format(num_1, num_2, num_1 / num_2))
+
 print("{0} 나누기 {1}은 {2:.2f}입니다.".format(num_1, num_2, num_1 / num_2))  # floating 소수점 둘째자리까지 출력
 
 print("{0} 나누기 {1}은 {2:.0f}입니다.".format(num_1, num_2, num_1 / num_2))  # floating 정수 출력
+
+
+def myself(name, age="26", nationality="한국"):
+    print("내 이름은 {}".format(name))
+    print("나이는 {}살".format(age))
+    print("국적은 {}".format(nationality))
+
+
+myself("코드잇", 1, "미국")  # 옵셔널 파라미터를 제공하는 경우
+
+print()
+myself("코드잇")  # 옵셔널 파라미터를 제공하지 않는 경구
