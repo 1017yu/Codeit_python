@@ -1,4 +1,3 @@
-
 import random  # 랜덤 모듈
 
 
